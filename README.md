@@ -1,32 +1,81 @@
-<<<<<<< HEAD
----
-title: "AI Retail Dashboard"
-emoji: 🛍️
-colorFrom: green
-colorTo: blue
-sdk: streamlit
-app_file: app.py
-pinned: false
+# 🛍️ Retail Sales Dashboard - AI Engineer Portfolio
+
+A professional Streamlit dashboard designed to analyze and visualize retail sales data, intended for showcasing data and AI engineering skills in real-time.
+
+🔗 **Live Demo**: [Hugging Face Space](https://huggingface.co/spaces/bernadlein/ai-retail-dashboard)
+
 ---
 
+## 📊 Features
 
+* 📈 **Key Metrics:** Total Revenue, Average Order Value
+* 📦 **Sales by Category:** Interactive bar chart by product type
+* 🧃 **Sales by Product:** Top-selling products
+* 📅 **Custom date range filtering** *(planned)*
+* 🤖 **AI Forecasting Model** *(coming soon)*
 
-# Retail Sales Dashboard (Streamlit)
+---
 
-This is a sample retail sales dashboard for AI Engineer portfolio, built using:
-- Python (Pandas, Matplotlib)
-- Streamlit
+## 🧱 Project Structure
 
-Dataset: Simulated retail sales data with product, category, price, quantity, and discount.
+```
+├── app.py                  # Main Streamlit app
+├── retail_sales.csv        # Retail sales dataset
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+```
 
-Deployed via Hugging Face Spaces.
+---
 
-## Run Locally
+## ⚙️ How to Run Locally
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/bernadlein/ai-retail-dashboard.git
+cd ai-retail-dashboard
+```
+
+2. **Install Requirements**
+
 ```bash
 pip install -r requirements.txt
+```
+
+3. **Run Streamlit App**
+
+```bash
 streamlit run app.py
 ```
-=======
-# ai-retail-dashboard
-Retail sales dashboard powered by Streamlit — part of AI Engineer portfolio project
->>>>>>> 85d9d6d8777abbf2b183ed24d0065e3de370dff9
+
+---
+
+## 📈 Sample Data
+
+Data used in this project simulates retail transactions with:
+
+* Product Category
+* Product Name
+* Order Quantity & Revenue
+
+---
+
+## 🚀 Upcoming Enhancements
+
+* [ ] Add Prophet/XGBoost model for forecasting sales per category
+* [ ] Add `upload CSV` feature for custom data
+* [ ] Export data/visuals to PDF or Excel
+* [ ] Role-based view (admin vs. public)
+
+---
+
+## 🧑‍💻 Author
+
+**Bernadus Boli**
+AI & Data Engineer | Portfolio Project
+
+---
+
+## 🤝 License
+
+MIT License — free for use, reuse, and remix.
