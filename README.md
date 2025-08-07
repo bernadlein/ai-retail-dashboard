@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "AI Retail Dashboard"
 emoji: 🛍️
@@ -25,3 +26,7 @@ Deployed via Hugging Face Spaces.
 pip install -r requirements.txt
 streamlit run app.py
 ```
+=======
+# ai-retail-dashboard
+Retail sales dashboard powered by Streamlit — part of AI Engineer portfolio project
+>>>>>>> 85d9d6d8777abbf2b183ed24d0065e3de370dff9
