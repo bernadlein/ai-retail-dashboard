@@ -1,19 +1,15 @@
----
-title: Ai Retail Dashboard
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
-pinned: false
-short_description: Streamlit template space
----
+# Retail Sales Dashboard (Streamlit)
 
-# Welcome to Streamlit!
+This is a sample retail sales dashboard for AI Engineer portfolio, built using:
+- Python (Pandas, Matplotlib)
+- Streamlit
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+Dataset: Simulated retail sales data with product, category, price, quantity, and discount.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+Deployed via Hugging Face Spaces.
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
