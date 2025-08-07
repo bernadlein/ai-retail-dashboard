@@ -1,3 +1,15 @@
+---
+title: "AI Retail Dashboard"
+emoji: 🛍️
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
+
+
 # Retail Sales Dashboard (Streamlit)
 
 This is a sample retail sales dashboard for AI Engineer portfolio, built using:
